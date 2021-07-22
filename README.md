@@ -1,2 +1,2 @@
-# github_sites
-This repo will contain all my github sites!
+# munchera
+This is a basic webstite for Munchera!
