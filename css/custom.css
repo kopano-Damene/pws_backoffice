@@ -1,0 +1,59 @@
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+  color: #00ff00;
+}
+.ms-tabs .ms-thumb-frame {
+  height: 52px !important;
+  background: #62cdfd;
+  border: none;
+  margin: 0 !important;
+}
+
+.ms-thumb-frame-selected .ms-thumb,
+.ms-tabs .ms-thumb:hover {
+  background: #62cdfd;
+}
+
+.ms-tabs .ms-thumb-frame-selected {
+  background: #62cdfd;
+  padding: 10px 0;
+}
+
+.ms-tabs .ms-thumb {
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: none;
+  background: #62cdfd;
+  padding: 17px 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.g-bg-primary {
+  background-color: #62cdfd !important;
+}
+.g-theme-bg-primary-dark-v1 {
+  background-color: #2e84ab !important;
+}
+.u-theme-shadow-v1 {
+  box-shadow: inset 2px 2px 2px #2e84ab;
+}
+.g-color-primary {
+  color: #62cdfd !important;
+}
+.g-bg-primary--before::before, .g-bg-primary--after::after {
+  background-color: #62cdfd !important;
+}
+[class*="u-nav-v5"].u-nav-primary .nav-link.active {
+    border-color: #62cdfd;
+    color: #62cdfd;
+  }
+
+  [class*="u-nav-v2"].u-nav-primary .nav-link.active {
+    border-color: #62cdfd !important;
+  }
+  .u-nav-v2-1.u-nav-primary .nav-link.active {
+    background-color: #62cdfd;
+  }
