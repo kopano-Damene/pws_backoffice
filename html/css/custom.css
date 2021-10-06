@@ -1,72 +1,42 @@
-body {
-	font-size: 15px;
-	color: #080808;
-}
-.navbar-nav .nav-item .nav-link:hover,
-.navbar-nav .nav-item.active .nav-link {
-	color: #00ff00;
-}
-.ms-tabs .ms-thumb-frame {
-	height: 52px !important;
-	background: #62cdfd;
-	border: none;
-	margin: 0 !important;
+.btn-responsive {
+	width: 100%;
 }
 
-.ms-thumb-frame-selected .ms-thumb,
-.ms-tabs .ms-thumb:hover {
-	background: #62cdfd;
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.ms-tabs .ms-thumb-frame-selected {
-	background: #62cdfd;
-	padding: 10px 0;
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
 }
 
-.ms-tabs .ms-thumb {
-	color: #fff;
-	font-weight: 700;
-	font-size: 11px;
-	text-transform: uppercase;
-	text-align: center;
-	text-shadow: none;
-	background: #62cdfd;
-	padding: 17px 20px;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
-.g-bg-primary {
-	background-color: #62cdfd !important;
-}
-.g-theme-bg-primary-dark-v1 {
-	background-color: #2e84ab !important;
-}
-.u-theme-shadow-v1 {
-	box-shadow: inset 2px 2px 2px #2e84ab;
-}
-.g-color-primary {
-	color: #62cdfd !important;
-}
-.g-bg-primary--before::before, .g-bg-primary--after::after {
-	background-color: #62cdfd !important;
-}
-[class*="u-nav-v5"].u-nav-primary .nav-link.active {
-		border-color: #62cdfd;
-		color: #62cdfd;
-	}
 
-	[class*="u-nav-v2"].u-nav-primary .nav-link.active {
-		border-color: #62cdfd !important;
-	}
-	.u-nav-v2-1.u-nav-primary .nav-link.active {
-		background-color: #62cdfd;
-	}
-.g-color-gray-dark-v5 {
-	color: #000000 !important;
-}
-.g-bg-white {
-	background-color: #DAA06D !important;
-}
-footer {
-	background-color: #DAA06D;
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }

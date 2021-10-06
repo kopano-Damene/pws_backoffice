@@ -9,11 +9,11 @@ services:
             - 8888:80
         depends_on:
             - php
-        container_name: munchera_web
+        container_name: backoffice_web
     php:
         build: .docker
         volumes:
             - ./.docker/conf/php/php.ini:/usr/local/etc/php/conf.d/php.ini
             - ./.docker/conf/php/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
             - ./html:/var/www/html
-        container_name: munchera_php
+        container_name: backoffice_php
